@@ -1,6 +1,7 @@
 import React from 'react';
 import TableSiswa from '@/components/Pages/DashboardPage/TableSiswa';
 
+
 export default function DashboardPage() {
     return (
         <main>
