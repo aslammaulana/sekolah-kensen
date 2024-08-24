@@ -11,7 +11,10 @@ export default function Sidebar() {
         >
             <div className="relative flex flex-col h-full max-h-full px-3">
                 <Link href="/dashboard" className="pt-7 px-3">
-                    <Image src="/images/LogoKensen.png" width={180} height={180} alt='Logo' />
+                    <Image 
+                    src="/images/KenseUniv.svg" 
+                    width={180} height={180} 
+                    alt='Logo' />
                 </Link>
                 <p className='pt-16 mb-5 text-[12px] text-[#ffffff6b] font-medium'>GENERAL MENUS</p>
                 <div className="">
