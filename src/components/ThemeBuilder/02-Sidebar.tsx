@@ -2,7 +2,7 @@ import Link from 'next/link';
 import React from 'react'
 import Image from 'next/image';
 import Button from '../Elements/Button';
-import { HiHome, HiOutlinePlus, HiOutlineUser } from 'react-icons/hi';
+import { HiFolderOpen, HiHome, HiOutlinePlus, HiOutlineUser } from 'react-icons/hi';
 
 export default function Sidebar() {
     return (
@@ -23,6 +23,12 @@ export default function Sidebar() {
                         text="Dashboard"
                         href="/dashboard"
                         className="font-medium hover:bg-[#222a35] hover:text-[#7399df] "
+                    />
+                    <Button
+                        icon={<HiFolderOpen size={15} className='fill-current w-4 h-4 mr-3' />}
+                        text="Table Siswa"
+                        href="/tablesiswa"
+                        className="font-medium mt-2 hover:bg-[#222a35] hover:text-[#7399df] "
                     />
                     <Button
                         icon={<HiOutlineUser size={15} className='fill-current w-4 h-4 mr-3' />}

@@ -2,10 +2,12 @@ import InputField from '@/components/Elements/InputField';
 import InputSelect from '@/components/Elements/InputSelect';
 import React from 'react';
 
-export default function FormInputNilai() {
+export default function FormUpdateMahasiswa() {
     return (
         <>
+
             <form className="bg-[#2f3a4d]  w-full px-[30px] py-[30px] rounded-lg  flex flex-col ">
+
                 <h1 className="text-[16px] sm:text-[17px] font-bold mb-4 text-start text-white ">
                     Input Nilai Mahasiswa
                 </h1>
@@ -51,8 +53,6 @@ export default function FormInputNilai() {
                         ]}
                     />
                 </div>
-
-                
                 <InputField
                     label="Password"
                     type="password"

@@ -14,7 +14,7 @@ interface Siswa {
   status: string;
 }
 
-export default function TableSiswa() {
+export default function ContentTableSiswa() {
   return (
     <>
       {/* Section Mobile */}
@@ -96,7 +96,7 @@ export default function TableSiswa() {
           </div>
         </div>
         {SiswaJson.map(data => (
-          <div key={data.id} className='mb-[15px] font-medium shadow-md'>
+          <div key={data.id} className='mb-[20px] font-medium shadow-sm'>
             <div className='bg-[#2f3a4d] text-[#FFFFFFCF] py-[20px] pl-[20px] pr-[40px] flex grid-cols-6 justify-between items-center rounded-lg text-[12px]'>
               <div className="w-[8%]">
                 <Image src={`/images/Mahasiswa/${data.image}`} width={50} height={50} alt='Avatar' className='rounded-[7px]' />

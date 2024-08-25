@@ -4,11 +4,11 @@ import Head from 'next/head';
 import { SiswaJson } from '@/components/DataJson/JsonSiswa';
 import Button from '@/components/Elements/Button';
 
-interface MahasiswaIdProps {
+interface DataMahasiswaIdProps {
     id: string;
 }
 
-const MahasiswaId = ({ id }: MahasiswaIdProps) => {
+const DataMahasiswaId = ({ id }: DataMahasiswaIdProps) => {
     // Cari data siswa berdasarkan ID
     const siswa = SiswaJson.find(s => s.id === id);
 
@@ -52,12 +52,6 @@ const MahasiswaId = ({ id }: MahasiswaIdProps) => {
                     </div>
                     <div className='mt-5'>
                         <div className="flex space-x-2">
-                            <button
-                                className="justify-center bg-[#3d67b1] hover:bg-[#325797] text-white text-[12px] font-medium w-full py-2.5 px-3 rounded-md inline-flex items-center"
-                            >
-                                <HiPencilAlt size={15} className=' w-4 h-4 mr-1' />
-                                <span>Edit</span>
-                            </button>
                             <button className="justify-center bg-[#439b56] hover:bg-[#3a7a40] text-white text-[12px] w-full font-medium py-2.5 px-3 rounded-md inline-flex items-center">
                                 <HiBadgeCheck size={15} className='fill-current w-4 h-4 mr-1' />
                                 <span>Submit</span>
@@ -74,4 +68,4 @@ const MahasiswaId = ({ id }: MahasiswaIdProps) => {
     );
 };
 
-export default MahasiswaId;
+export default DataMahasiswaId;
