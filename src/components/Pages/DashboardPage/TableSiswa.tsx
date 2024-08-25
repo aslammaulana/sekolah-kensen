@@ -108,7 +108,7 @@ export default function TableSiswa() {
               <div className='w-[15%]'>
                 <Button
                   text={data.status}
-                  href="#"
+                  href={`/siswa/${data.id}`}
                   className={`py-2.5 px-5 inline-flex !rounded-full !text-[12px] bg-[#779ddf33] text-[#ffffffe3] !w-auto`}
                 />
               </div>

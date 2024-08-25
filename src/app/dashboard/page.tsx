@@ -1,5 +1,6 @@
 import React from 'react';
 import TableSiswa from '@/components/Pages/DashboardPage/TableSiswa';
+import Breadcrumb from '@/components/ThemeBuilder/05-Breadcrumb';
 
 
 export default function DashboardPage() {
@@ -8,6 +9,11 @@ export default function DashboardPage() {
             {/* Konten dashboard */}
             <div className="w-full lg:ps-64 overflow-x-auto bg-[#1c2431]">
                 <div className="p-4 lg:p-10 mt-5 lg:mt-0">
+                    <Breadcrumb
+                        title="Dashboard"
+                        link={{ name: "Home", href: "/" }}
+                        link2={{ name: "Dashboard" }}
+                    />
                     <div className="border-b-2 border-[#ffffff3b] my-10"></div>
                     <TableSiswa />
                 </div>
