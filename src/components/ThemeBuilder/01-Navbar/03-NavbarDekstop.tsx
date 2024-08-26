@@ -6,7 +6,7 @@ import { Settings } from 'lucide-react';
 
 export default function NavbarDekstop() {
     return (
-        <nav className='hidden md:block lg:ps-[260px] border-b-2 border-[#ffffff18] py-0 bg-[#12171d] px-8'>
+        <div className='hidden md:block lg:ps-[260px] border-b-2 border-[#ffffff18] py-0 bg-[#12171d] px-8'>
             <div className="flex items-center justify-end h-20 space-x-3">
                 <Link href="/profil">
                     <div className="text-right">
@@ -27,6 +27,6 @@ export default function NavbarDekstop() {
                     />
                 </Link>
             </div>
-        </nav>
+        </div>
     );
 }

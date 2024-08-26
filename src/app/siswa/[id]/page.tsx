@@ -2,9 +2,9 @@
 
 import React, { useEffect, useState } from 'react';
 import Breadcrumb from '@/components/ThemeBuilder/05-Breadcrumb';
+import MahasiswaId from '@/components/Pages/Mahasiswa/MahasiswaId';
 import { useParams } from 'next/navigation'; // Import useParams
 import { SiswaJson } from '@/components/DataJson/JsonSiswa'; // Import data siswa
-import MahasiswaId from '@/components/Pages/Mahasiswa/ContentMahasiswaId';
 
 const SiswaPage: React.FC = () => {
     const params = useParams(); // Menggunakan useParams untuk mendapatkan ID dari URL

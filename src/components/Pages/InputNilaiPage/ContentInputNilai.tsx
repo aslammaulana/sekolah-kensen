@@ -1,3 +1,5 @@
+import DataProfile from '@/components/Pages/ProfilePage/DataProfile'
+import FormProfile from '@/components/Pages/ProfilePage/FormProfile'
 import React from 'react'
 import HeroInputNilai from './HeroInputNilai'
 import FormInputNilai from './FormInputNilai'

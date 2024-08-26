@@ -1,5 +1,6 @@
 // src/app/layout.tsx
 import './globals.css';
+import Navbar from '@/components/ThemeBuilder/01-Navbar/01-Navbar';
 import Sidebar from '@/components/ThemeBuilder/02-Sidebar';
 import Footer from '@/components/ThemeBuilder/04-Footer';
 
@@ -18,7 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="bg-[#1c2431]">
         <div className="layout-container">
-          {/* <Navbar /> */}
+          <Navbar />
           <Sidebar />
           <main>{children}</main>
           <Footer />
