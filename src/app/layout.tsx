@@ -1,6 +1,5 @@
 // src/app/layout.tsx
 import './globals.css';
-import Navbar from '@/components/ThemeBuilder/01-Navbar/01-Navbar';
 import Sidebar from '@/components/ThemeBuilder/02-Sidebar';
 import Footer from '@/components/ThemeBuilder/04-Footer';
 

@@ -4,8 +4,7 @@ import React, { useEffect, useState } from 'react';
 import Breadcrumb from '@/components/ThemeBuilder/05-Breadcrumb';
 import { useParams } from 'next/navigation'; // Import useParams
 import { SiswaJson } from '@/components/DataJson/JsonSiswa'; // Import data siswa
-import Navbar from '@/components/ThemeBuilder/01-Navbar/01-Navbar';
-import ContentMahasiswaId from '@/components/Pages/Mahasiswa/ContentMahasiswaId';
+import MahasiswaId from '@/components/Pages/Mahasiswa/ContentMahasiswaId';
 
 const SiswaPage: React.FC = () => {
     const params = useParams(); // Menggunakan useParams untuk mendapatkan ID dari URL
@@ -32,7 +31,6 @@ const SiswaPage: React.FC = () => {
 
     return (
         <main>
-            <Navbar />
             <div className="w-full lg:ps-64 overflow-x-auto bg-[#1c2431]">
                 <div className="p-4 lg:p-10 mt-5 lg:mt-0">
                     <Breadcrumb
@@ -41,7 +39,7 @@ const SiswaPage: React.FC = () => {
                         link2={{ name: id }}  // Menampilkan ID siswa
                     />
                     <div className="border-b-2 border-[#ffffff3b] my-10"></div>
-                    <ContentMahasiswaId id={id} /> {/* Mengirimkan id sebagai props */}
+                    <MahasiswaId id={id} /> {/* Pass id as a prop */}
                 </div>
             </div>
         </main>

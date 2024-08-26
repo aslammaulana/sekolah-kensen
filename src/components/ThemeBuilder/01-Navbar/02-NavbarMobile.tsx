@@ -9,8 +9,7 @@ import Button from '../../Elements/Button';
 export default function NavbarMobile() {
     const [isClick, setIsClick] = useState(false);
 
-    const toggleNavbar = (): void => {
-        setIsClick(!isClick);
+    const toggleNavbar = (): void => { setIsClick(!isClick);
     };
 
     return (
