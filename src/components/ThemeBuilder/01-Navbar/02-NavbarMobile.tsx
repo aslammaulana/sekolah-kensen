@@ -14,7 +14,7 @@ export default function NavbarMobile() {
     };
 
     return (
-        <div className='lg:hidden sticky top-0 inset-x-0 z-20 bg-[#12171d] shadow-md'>
+        <div className=' lg:hidden sticky top-0 inset-x-0 z-20 bg-[#12171d] shadow-md'>
             <div className='max-w-[1280px] mx-auto px-4 sm:px-6 flex items-center justify-between h-20 border-b border-[#ffffff17]'>
                 <Link href="/dashboard">
                     <Image src="/images/KenseUniv.svg" width={180} height={180} alt='Logo' />
