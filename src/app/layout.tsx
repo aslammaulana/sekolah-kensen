@@ -19,7 +19,6 @@ export default function RootLayout({
     <html lang="en">
       <body className="bg-[#1c2431]">
         <div className="layout-container">
-          <Navbar />
           <Sidebar />
           <main>{children}</main>
           <Footer />

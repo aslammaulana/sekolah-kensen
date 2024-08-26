@@ -5,6 +5,7 @@ import Breadcrumb from '@/components/ThemeBuilder/05-Breadcrumb';
 import MahasiswaId from '@/components/Pages/Mahasiswa/MahasiswaId';
 import { useParams } from 'next/navigation'; // Import useParams
 import { SiswaJson } from '@/components/DataJson/JsonSiswa'; // Import data siswa
+import Navbar from '@/components/ThemeBuilder/01-Navbar/01-Navbar';
 
 const SiswaPage: React.FC = () => {
     const params = useParams(); // Menggunakan useParams untuk mendapatkan ID dari URL
@@ -31,6 +32,8 @@ const SiswaPage: React.FC = () => {
 
     return (
         <main>
+            <Navbar />
+
             <div className="w-full lg:ps-64 overflow-x-auto bg-[#1c2431]">
                 <div className="p-4 lg:p-10 mt-5 lg:mt-0">
                     <Breadcrumb

@@ -8,6 +8,7 @@ import Navbar from '@/components/ThemeBuilder/01-Navbar/01-Navbar';
 export default function DashboardPage() {
     return (
         <main>
+            <Navbar />
 
             {/* Konten dashboard */}
             <div className="w-full lg:ps-64 overflow-x-auto bg-[#1c2431]">
