@@ -8,7 +8,6 @@ import Sidebar from '@/components/ThemeBuilder/02-Sidebar';
 export default function TableSiswa() {
     return (
         <main>
-            <Navbar />
             <Sidebar/>
             {/* Konten dashboard */}
             <div className="w-full lg:ps-64 overflow-x-auto bg-[#1c2431]">
