@@ -108,8 +108,8 @@ export default function ContentTableSiswa() {
               <div className='w-[15%]'>
                 <Button
                   text={data.status}
-                  href={`/siswa/${data.id}`}
-                  className={`py-2.5 px-5 inline-flex !rounded-full !text-[12px] bg-[#779ddf33] text-[#ffffffe3] !w-auto`}
+                  href={``}
+                  className={`py-2.5 px-5 inline-flex !rounded-full !text-[12px] bg-[#779ddf33] text-[#ffffffe3] !w-auto cursor-auto`}
                 />
               </div>
               <div className='w-[23.5%] flex grid-cols-3 justify-between items-center space-x-2  '>
