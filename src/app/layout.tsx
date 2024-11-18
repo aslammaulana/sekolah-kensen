@@ -1,6 +1,6 @@
 // src/app/layout.tsx
 import './globals.css';
-import Navbar from '@/components/ThemeBuilder/01-Navbar/01-Navbar';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import Sidebar from '@/components/ThemeBuilder/02-Sidebar';
 import Footer from '@/components/ThemeBuilder/04-Footer';
 
@@ -21,6 +21,7 @@ export default function RootLayout({
         <div className="layout-container">
           <Sidebar />
           <main>{children}</main>
+          <SpeedInsights />
           <Footer />
         </div>
       </body>
