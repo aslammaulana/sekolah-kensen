@@ -8,7 +8,7 @@ export default function ContentDashboard() {
             <ItemDashboard
                 imageSrc="/images/IconDashboard/IconDashboard-01.svg"
                 title="Dosen"
-                description="5 Dosen"
+                description="5 Guru"
             />
             {/* 2 */}
             <ItemDashboard
